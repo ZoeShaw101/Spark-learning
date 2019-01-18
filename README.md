@@ -1,5 +1,12 @@
-## sparktraining
-Examples for Spark Training in chinahadoop.cn
+## Spark 学习记录
+本项目为相关代码
+
+系列博文：
+[Spark 学习笔记 （一）： 初探Spark 程序设计之RDD
+](https://www.cnblogs.com/shawshawwan/p/10279673.html)
+
+待更...
+
 
 
 ## 本地运行Spark方法
