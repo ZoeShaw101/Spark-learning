@@ -17,7 +17,7 @@ object SparkPi {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("Spark Pi").setMaster("local[1]");
     val sc = new SparkContext(conf);
-    val slices = if (args.length > 0) args(0).toInt else 5;
+    val slices = if (args.length > 0) args(0).toInt else 2;
     val areaSqure = 100000 * slices;
 
     //并行估算areaCircle的值：也就是撒areaSqure这么多个点，求落在圆内的多少个点，就近似等于圆的面积
